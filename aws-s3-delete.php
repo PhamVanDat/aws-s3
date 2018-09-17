@@ -32,8 +32,6 @@
 			)
 		);
 	} catch (S3Exception $e) {
-		echo $e->getMessage();
-	} catch (Exception $e) {
-		echo $e->getMessage();
-	}
+		echo $e->getMessage() . PHP_EOL;
+	} 
 ?>
